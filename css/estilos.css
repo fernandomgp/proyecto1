@@ -284,9 +284,37 @@ footer{
     .social-media i{
         margin-left: 0;
     }
+    .social-media-icon{
+        margin-left: 0;
+    }
     .contact-us{
         text-align: center;
         width: 80%;
         margin-bottom: 40px;
+    }
+    @media screen and (max-width:500px) {
+        .menu-navegacion{
+            width:95%
+        }
+        .hamburger{
+            top: 20px;
+            right: 20px;
+        }
+        .titulo, .subtitulo{
+            font-size: 30px;
+        }
+        .agregar-imagen{
+            width: 95%;
+        }
+        .img-galeria{
+            width: 95%;
+        }
+        .social-media{
+            width: 100%;
+        }
+        .contact-us{
+            width: 90%;
+        }
+        
     }
 }
