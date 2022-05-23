@@ -142,7 +142,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(100%);
+    transform: translate(110%);
     transition: transform .2s ease-in-out;
 }
 .show{
@@ -315,6 +315,6 @@ footer{
         .contact-us{
             width: 90%;
         }
-        
+
     }
 }
